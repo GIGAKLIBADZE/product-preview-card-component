@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    background-color:  #F2EAE2;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    width: 343px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.photo1 {
+    display: none;
+}
+
+.main {
+    margin-left: 24px;
+}
+
+.perfume {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    color: #6C7289; 
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 700;
+    color: #1C232B;
+    margin-top: 12px;
+    width: 295px;
+}
+
+.description {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6C7289;
+    margin-top: 16px;
+    line-height: 23px;
+    width: 295px;
+}
+
+.card {
+    width: 343px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-left: 24px;
+}
+
+h2 {
+    display: inline-block;
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-weight: 700;
+    color: #3D8168;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+small {
+    display: inline-block;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    color: #6C7289;
+    margin-left: 19px;
+    text-decoration-line: line-through;
+    display: flex;
+    align-items: center;
+}
+
+.buy {
+    display: block;
+    width: 295px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #3D8168;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+strong {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+
+
+@media all and (min-width: 1440px) {
+    .card {
+        flex-direction: row;
+        width: 600px;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .photo1 {
+        display: block;
+        height: 450px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .perfume {
+        margin-top: 32px;
+    }
+
+    h1 {
+        margin-top: 20px;
+        width: 236px;
+    }
+
+    .description {
+        margin-top: 24px;
+        width: 237px;
+    }
+
+    .test {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        margin-top: 29px;
+    }
+
+    .buy {
+        width: 236px;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+
+}
